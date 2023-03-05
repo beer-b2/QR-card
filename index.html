@@ -26,17 +26,14 @@
         background-color: #d5e1efff;
       }
 
-      .container .box {
-        position: relative;
-        display: flex;
+      .box {
+        position: absolute;
         background: white;
         width: 290px;
         height: 450px;
+        inset: 0;
         margin: auto;
-        margin-top: 150px;
         border-radius: 15px;
-        align-items: center;
-
       }
 
       .image img {
@@ -78,6 +75,14 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          top: 50%;
+          /* transform: translate(10,-50%); */
+          padding: 10px;
+        }
+      }
     </style>
   </head>
 
@@ -86,7 +91,7 @@
       <div class="box">
         <div class="image">
           <img
-            src="./images/image-qr-code.png"
+            src="/images/image-qr-code.png"
             alt="QR Code"
             style="width: 265px; height: 260px"
           />
