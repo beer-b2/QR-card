@@ -5,7 +5,7 @@
 This is a simple HTML file for a QR code component that can be used for various purposes. The code contains HTML and CSS.
 
 # Getting Started
-To get started with this QR code component, simply download the index.html file and open it in your preferred web browser.
+To get started with this QR code component, simply download the index.html file and open it in your preferred web browser.You can also view a live demo of the component at https://beer-b2.github.io/.
 
 # Dependencies
 This code has no external dependencies or requirements.
